@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins, sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    color:white;
+    background-image: linear-gradient(to left,rgb(58, 3, 58),rgb(169, 5, 169));
+}
+
+.task-form{
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    gap:1rem;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(84, 6, 84);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+[name="add_task"]{
+    padding: 10px;
+    border: none;
+    background-color: rgb(90, 14, 90);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav{
+    height: 5rem;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.task-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    gap:1rem;
+    border-radius: 10px;
+}
+
+
+.logout{
+   padding: 10px;
+    border: none;
+    background-color: rgb(90, 14, 90);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover{
+    font-weight: bold;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete{
+    padding: 10px;
+    border: none;
+    background-color: rgb(90, 14, 90);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trow{
+    margin-right:1rem;
+}
